@@ -10,10 +10,10 @@ namespace Ucu.Poo.Restaurant
     public class Dish
     {
         public string Name;
-        public int Price;
+        public double Price;
         public bool Isvegetarian;
 
-        public Dish(string name, int price, bool isvegetarian)
+        public Dish(string name, double price, bool isvegetarian)
         {
             Name = name;
             Price = price;
