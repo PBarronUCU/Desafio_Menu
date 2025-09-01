@@ -1,3 +1,6 @@
+using System.Diagnostics;
+using System.Security.Cryptography;
+
 namespace Ucu.Poo.Restaurant
 {
 
@@ -6,5 +9,16 @@ namespace Ucu.Poo.Restaurant
     /// </summary>
     public class Dish
     {
+        public string Name;
+        public int Price;
+        public bool Isvegetarian;
+
+        public Dish(string name, int price, bool isvegetarian)
+        {
+            Name = name;
+            Price = price;
+            Isvegetarian = isvegetarian;
+            
+        }
     }
 }
